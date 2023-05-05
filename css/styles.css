@@ -514,6 +514,8 @@ img {
 }
 
 .footer-link {
+  transition: background-color;
+
   width: 100%;
   height: 100%;
   background-color: var(--accent-text);
