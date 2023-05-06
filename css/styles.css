@@ -575,6 +575,7 @@ img {
   position: absolute;
   top: 24px;
   right: 24px;
+  transition: var(--fast-anim);
 
   display: flex;
   align-items: center;
