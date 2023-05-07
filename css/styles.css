@@ -557,6 +557,8 @@ img {
   height: 100%;
   background-color: var(--modal-overlay);
   transition: var(--fast-animis);
+
+  transition-property: opacity, visability;
 }
 
 .modal {
@@ -564,7 +566,7 @@ img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
-  transition: var(--fast-anim);
+  transition: var(--opacity-visibility);
 
   width: 408px;
   min-height: 576px;
