@@ -295,6 +295,11 @@ img {
   background-color: var(--light-mode);
 }
 
+.filter {
+  transition: color var(--fast-anim), background-color var(--fast-anim),
+    border-color var(--fast-anim), box-shadow var(--fast-anim);
+}
+
 .filter:hover,
 .filter:focus {
   border: 1px solid transparent;
@@ -468,6 +473,8 @@ img {
   align-items: center;
   justify-content: center;
   color: var(--subtitle-text);
+
+  transition: border-color var(--fast-anim);
 }
 
 .custom-link:hover,
