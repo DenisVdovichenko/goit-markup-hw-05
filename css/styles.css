@@ -599,4 +599,12 @@ img {
 .modal-icon {
 }
 
-.modal-svg: ;
+.modal-svg {
+  transition: fill var(--fast-anim);
+}
+
+.modal-svg: :hover,
+.modal-svg: :focus {
+  fill: var(--primary-white-color);
+  fill: var(--primary-white-color);
+}
