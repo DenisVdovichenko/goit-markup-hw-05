@@ -583,7 +583,7 @@ img {
   position: absolute;
   top: 24px;
   right: 24px;
-  transition: var(--fast-anim);
+  transition: background-color var(--fast-anim), border var(--fast-anim);
 
   display: flex;
   align-items: center;
@@ -596,6 +596,12 @@ img {
   border-radius: 50%;
   background-color: var(--accent);
   border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.modal-btn: :hover,
+.modal-btn: :focus {
+  background-color: var(--pressed-state);
+  border: none;
 }
 
 .modal-icon {
