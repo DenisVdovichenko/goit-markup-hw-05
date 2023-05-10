@@ -131,12 +131,14 @@ img {
 }
 
 .current {
-  color: var(--pressed-state);
+  /* color: var(--pressed-state); */
 }
 
 .header-title.current::after,
-.header-title:hover::after .header-title:focus::after {
+.header-title:hover::after,
+.header-title:focus::after {
   background-color: var(--pressed-state);
+  color: var(--pressed-state);
 }
 
 .logo-header {
