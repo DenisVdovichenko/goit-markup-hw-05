@@ -121,24 +121,25 @@ img {
 .header-title::after {
   content: "";
   position: absolute;
-  left: 0;
   bottom: -1px;
-  height: 4px;
+  left: 0;
+
+  display: block;
   width: 100%;
+  height: 4px;
 
   border-radius: 2px;
-  transition: color var(--fast-anim);
+  /* transition: color var(--fast-anim); */
 }
 
-.current {
-  /* color: var(--pressed-state); */
+.header-title.current {
+  color: var(--pressed-state);
 }
 
 .header-title.current::after,
 .header-title:hover::after,
 .header-title:focus::after {
   background-color: var(--pressed-state);
-  color: var(--pressed-state);
 }
 
 .logo-header {
