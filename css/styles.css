@@ -116,7 +116,6 @@ img {
   padding-top: 24px;
   padding-bottom: 24px;
   color: var(--title-text);
-  color: var(--pressed-state);
 }
 
 .header-title::after {
@@ -125,10 +124,19 @@ img {
   left: 0;
   bottom: -1px;
   height: 4px;
+  width: 100%;
 
-  background-color: var(--pressed-state);
   border-radius: 2px;
   transition: color var(--fast-anim);
+}
+
+.current {
+  color: var(--pressed-state);
+}
+
+.header-title.current::after,
+.header-title:hover::after .header-title:focus::after {
+  background-color: var(--pressed-state);
 }
 
 .logo-header {
