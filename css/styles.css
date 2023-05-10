@@ -513,7 +513,7 @@ img {
   justify-content: center;
   color: var(--subtitle-text);
 
-  transition: border-color var(--fast-anim) color var(--fast-anim);
+  transition: border-color var(--fast-anim), color var(--fast-anim);
 }
 
 .custom-link:hover,
@@ -667,8 +667,8 @@ img {
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.modal-btn: :hover,
-.modal-btn: :focus {
+.modal-btn:hover,
+.modal-btn:focus {
   background-color: var(--pressed-state);
   border: none;
 }
@@ -680,8 +680,8 @@ img {
   transition: fill var(--fast-anim);
 }
 
-.modal-svg: :hover,
-.modal-svg: :focus {
+.modal-svg:hover,
+.modal-svg:focus {
   fill: var(--primary-white-color);
   fill: var(--primary-white-color);
 }
