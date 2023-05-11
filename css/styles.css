@@ -671,6 +671,8 @@ img {
 .modal-btn:focus {
   background-color: var(--pressed-state);
   border: none;
+  fill: var(--primary-white-color);
+  fill: var(--primary-white-color);
 }
 
 .modal-icon {
@@ -680,8 +682,8 @@ img {
   transition: fill var(--fast-anim);
 }
 
-.modal-svg:hover,
+/* .modal-svg:hover,
 .modal-svg:focus {
   fill: var(--primary-white-color);
   fill: var(--primary-white-color);
-}
+} */
