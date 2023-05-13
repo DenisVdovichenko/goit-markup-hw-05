@@ -677,9 +677,6 @@ img {
   fill: var(--primary-white-color);
 }
 
-.modal-icon {
-}
-
 .modal-svg {
   transition: fill var(--fast-anim);
 }
