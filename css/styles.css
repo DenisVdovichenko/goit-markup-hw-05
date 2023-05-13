@@ -524,14 +524,6 @@ img {
   fill: currentColor;
 }
 
-.position-portfolio-icon:hover .pop-up-text {
-  transform: translateY(0%);
-}
-
-.position-portfolio-icon:focus .pop-up-text {
-  transform: translateY(0%);
-}
-
 /* footer */
 
 .footer-color {
@@ -682,4 +674,12 @@ img {
 
 .modal-svg {
   transition: fill var(--fast-anim);
+}
+
+.position-portfolio-icon:hover .pop-up-text {
+  transform: translateY(0%);
+}
+
+.position-portfolio-icon:focus .pop-up-text {
+  transform: translateY(0%);
 }
