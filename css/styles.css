@@ -238,14 +238,14 @@ img {
   color: var(--light-mode);
   background-color: var(--accent-text);
 
-  /* transform: translateY(100%); */
+  transform: translateY(100%);
   transition: transform var(--fast-anim);
 }
 
-/* .pop-up-text:hover,
-.pop-up-text:focus {
-  transform: translateY(0%);
-} */
+.position-portfolio-icon:hover .pop-up-text,
+.position-portfolio-icon:focus .pop-up-text {
+  transform: translatex(0);
+}
 
 .section {
   padding-top: 120px;
@@ -362,13 +362,7 @@ img {
 .link-portfolio:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  /* transform: translateY(0%); */
 }
-
-/* .link-portfolio:hover.pop-up-text,
-.link-portfolio:focus.pop-up-text {
-  transform: translateY(0%);
-} */
 
 .section-hd-color {
   background-image: linear-gradient(
