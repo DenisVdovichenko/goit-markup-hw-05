@@ -245,7 +245,7 @@ img {
 
 .position-portfolio-icon:hover .pop-up-text,
 .position-portfolio-icon:focus .pop-up-text {
-  transform: translatex(0);
+  transform: translateY(0%);
 }
 
 .section {
