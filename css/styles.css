@@ -129,9 +129,8 @@ img {
   height: 4px;
 
   border-radius: 2px;
-  /* transition: color var(--fast-anim); */
 
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color var(--fast-anim);
 }
 
 .header-title.current {
@@ -630,10 +629,7 @@ img {
   z-index: var(--back-ndx);
   background-color: var(--modal-overlay);
 
-  transition-property: opacity, visability;
-  /* transition: opacity var(--fast-animis), visibility var(--fast-anim); */
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity var(--fast-anim), visibility var(--fast-anim);
 }
 
 .modal {
