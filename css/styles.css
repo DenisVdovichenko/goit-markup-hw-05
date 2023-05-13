@@ -116,6 +116,8 @@ img {
   padding-top: 24px;
   padding-bottom: 24px;
   color: var(--title-text);
+
+  transition: color var(--fast-anim);
 }
 
 .header-title::after {
