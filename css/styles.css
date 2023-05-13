@@ -244,11 +244,11 @@ img {
 }
 
 .position-portfolio-icon:hover .pop-up-text {
-  transform: translateY(0);
+  transform: translateY(0%);
 }
 
 .position-portfolio-icon:focus .pop-up-text {
-  transform: translateY(0);
+  transform: translateY(0%);
 }
 
 .section {
