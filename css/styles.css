@@ -243,8 +243,8 @@ img {
   transition: transform var(--fast-anim);
 }
 
-.position-portfolio-icon:hover .pop-up-text,
-.position-portfolio-icon:focus .pop-up-text {
+.link-portfolio:hover .pop-up-text,
+.link-portfolio:focus .pop-up-text {
   transform: translateY(0%);
 }
 
